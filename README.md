@@ -8,8 +8,16 @@ I design, ship, and operate AI systems end-to-end: architecture, product, compli
 
 **WESUMN** at [wesummonit.com](https://wesummonit.com) — cognitive AI agent monitoring and governance. Behavioral fingerprinting, drift detection, a signed receipt chain for every agent action, and compliance exports for the EU AI Act, Colorado SB-205, HIPAA, and education-sector rules.
 
-- Public architecture + design notes: [wesumn-public](https://github.com/Stray-South/wesumn-public)
-- Signed-receipt spec for AI API calls: [cognitive-meter](https://github.com/Stray-South/cognitive-meter-public)
+## Pinned repos
+
+- **[wesumn-public](https://github.com/Stray-South/wesumn-public)** — public architecture and design rationale for WESUMN.
+  *What this proves:* shipping a dual-mode desktop + web system end-to-end, ordering cleanup work (truth → stubs → refactor) before feature polish, and holding accessibility at the same level as auth and billing.
+
+- **[cognitive-meter-public](https://github.com/Stray-South/cognitive-meter-public)** — signed-receipt spec for AI API calls. Apache 2.0.
+  *What this proves:* designing a language-neutral schema with cryptographic invariants (Ed25519 + SHA-256 hash chain, RFC 8785 canonicalization) that other implementers can build against.
+
+- **[Stray-South](https://github.com/Stray-South/Stray-South)** — this profile.
+  *What this proves:* the ability to translate a complex technical product into a short, honest surface that respects the reader's time.
 
 ## Stack I ship with
 
