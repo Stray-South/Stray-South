@@ -16,6 +16,9 @@ I design, ship, and operate AI systems end-to-end: architecture, product, compli
 - **[cognitive-meter-public](https://github.com/Stray-South/cognitive-meter-public)** — signed-receipt spec for AI API calls. Apache 2.0.
   *What this proves:* designing a language-neutral schema with cryptographic invariants (Ed25519 + SHA-256 hash chain, RFC 8785 canonicalization) that other implementers can build against.
 
+- **[cognitive-meter-verify](https://github.com/Stray-South/cognitive-meter-verify)** — runnable browser demo of the `cognitive-meter` spec. Live demo: [stray-south.github.io/cognitive-meter-verify](https://stray-south.github.io/cognitive-meter-verify).
+  *What this proves:* shipping a spec with a reference implementation, not just prose — five test vectors (valid, tampered body, wrong key, broken chain, replay) and end-to-end Ed25519 + SHA-256 verification in the browser, zero dependencies.
+
 - **[Stray-South](https://github.com/Stray-South/Stray-South)** — this profile.
   *What this proves:* the ability to translate a complex technical product into a short, honest surface that respects the reader's time.
 
