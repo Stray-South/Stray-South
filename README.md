@@ -1,4 +1,4 @@
-# Logan Freeman — Stray South
+# Logan Freeman - AI Enablement/Product Delivery
 
 Founder-operator building governance and observability tools for AI agents.
 
